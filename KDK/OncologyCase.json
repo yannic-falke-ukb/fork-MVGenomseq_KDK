@@ -1,5 +1,5 @@
 {
-    "$id": "https://www.bfarm.de/schemas/genomde/OncologyCase",
+    "$id": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/refs/heads/gh-schemas/KDK/OncologyCase.json",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "Oncology Case Data Schema",
     "type": "object",
@@ -27,7 +27,7 @@
                 "mainDiagnosis": {
                     "allOf": [
                         {
-                            "$ref": "https://www.bfarm.de/schemas/genomde/data-types/Coding#"
+                            "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/refs/heads/gh-schemas/KDK/data-types/Coding.json"
                         },
                         {
                             "type": "object",
@@ -53,7 +53,7 @@
                     "items": {
                         "allOf": [
                             {
-                                "$ref": "https://www.bfarm.de/schemas/genomde/data-types/Coding#"
+                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/refs/heads/gh-schemas/KDK/data-types/Coding.json"
                             },
                             {
                                 "type": "object",
@@ -98,7 +98,7 @@
                     "items": {
                         "allOf": [
                             {
-                                "$ref": "https://www.bfarm.de/schemas/genomde/data-types/Coding#"
+                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/refs/heads/gh-schemas/KDK/data-types/Coding.json"
                             },
                             {
                                 "required": [
@@ -116,7 +116,7 @@
                     "items": {
                         "allOf": [
                             {
-                                "$ref": "https://www.bfarm.de/schemas/genomde/data-types/Coding#"
+                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/refs/heads/gh-schemas/KDK/data-types/Coding.json"
                             },
                             {
                                 "type": "object",
@@ -136,7 +136,7 @@
                 "histology": {
                     "allOf": [
                         {
-                            "$ref": "https://www.bfarm.de/schemas/genomde/data-types/Coding#"
+                            "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/refs/heads/gh-schemas/KDK/data-types/Coding.json"
                         },
                         {
                             "required": [
@@ -151,7 +151,7 @@
                 "topography": {
                     "allOf": [
                         {
-                            "$ref": "https://www.bfarm.de/schemas/genomde/data-types/Coding#"
+                            "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/refs/heads/gh-schemas/KDK/data-types/Coding.json"
                         },
                         {
                             "required": [
@@ -189,7 +189,7 @@
                     "items": {
                         "allOf": [
                             {
-                                "$ref": "https://www.bfarm.de/schemas/genomde/data-types/Coding#"
+                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/refs/heads/gh-schemas/KDK/data-types/Coding.json"
                             },
                             {
                                 "type": "object",
@@ -294,7 +294,7 @@
                     "description": "Gene display: Gene symbol (HGNC); BRAF. Gene code: HGNC ID; zB HGNC:1100",
                     "allOf": [
                         {
-                            "$ref": "https://www.bfarm.de/schemas/genomde/data-types/Coding#"
+                            "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/refs/heads/gh-schemas/KDK/data-types/Coding.json"
                         },
                         {
                             "required": [
@@ -307,7 +307,7 @@
                 "transcript": {
                     "allOf": [
                         {
-                            "$ref": "https://www.bfarm.de/schemas/genomde/data-types/Coding#"
+                            "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/refs/heads/gh-schemas/KDK/data-types/Coding.json"
                         },
                         {
                             "required": [
@@ -330,7 +330,7 @@
                     "items": {
                         "allOf": [
                             {
-                                "$ref": "https://www.bfarm.de/schemas/genomde/data-types/Coding#"
+                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/refs/heads/gh-schemas/KDK/data-types/Coding.json"
                             },
                             {
                                 "required": [
@@ -377,7 +377,7 @@
                     "items": {
                         "allOf": [
                             {
-                                "$ref": "https://www.bfarm.de/schemas/genomde/data-types/Substance#"
+                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/refs/heads/gh-schemas/KDK/data-types/Substance.json"
                             },
                             {
                                 "oneOf": [
@@ -387,7 +387,7 @@
                                             "code": {
                                                 "allOf": [
                                                     {
-                                                        "$ref": "https://www.bfarm.de/schemas/genomde/data-types/Coding#"
+                                                        "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/refs/heads/gh-schemas/KDK/data-types/Coding.json"
                                                     },
                                                     {
                                                         "type": "object",

@@ -1,11 +1,11 @@
 {
-  "$id": "https://www.bfarm.de/schemas/genomde/data-types/Substance",
+  "$id": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/refs/heads/gh-schemas/KDK/data-types/Substance.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Substance",
   "type": "object",
   "properties": {
     "code": {
-      "$ref": "https://www.bfarm.de/schemas/genomde/data-types/Coding#"
+      "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/refs/heads/gh-schemas/KDK/data-types/Coding.json"
     },
     "name": {
       "type": "string"
