@@ -109,7 +109,7 @@
         "variants": {
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/refs/heads/gh-schemas/KDK/RareDiseasesMolecular#/$defs/variants.json"
+            "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/refs/heads/gh-schemas/KDK/RareDiseasesMolecular.json#/properties/variants"
           }
         }
       },
