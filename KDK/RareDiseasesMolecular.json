@@ -3,6 +3,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Rare Diseases Molecular Report",
   "type": "object",
+  "additionalProperties": false,
   "required": [
     "variants"
   ],
@@ -36,6 +37,7 @@
   "$defs": {
     "Variant": {
       "type": "object",
+      "additionalProperties": false,
       "description": "For all variants",
       "properties": {
         "identifier": {
@@ -94,6 +96,7 @@
           "type": "array",
           "items": {
             "type": "object",
+            "additionalProperties": false,
             "properties": {
               "value": {
                 "type": "string",
@@ -206,6 +209,7 @@
     },
     "StructuralVariant": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "description": {
           "type": "string",
@@ -215,6 +219,7 @@
     },
     "SmallVariant": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "chromosome": {
           "type": "string",
@@ -272,6 +277,7 @@
     },
     "CopyNumberVariant": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "chromosome": {
           "type": "string",

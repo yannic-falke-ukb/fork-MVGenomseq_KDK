@@ -2,11 +2,13 @@
   "$id": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/refs/heads/gh-schemas/KDK/RareDiseasesFollowUp.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "followUpRds": {
       "type": "array",
       "items": {
         "type": "object",
+        "additionalProperties": false,
         "properties": {
           "followUpDate": {
             "type": "string",
@@ -17,6 +19,7 @@
             "type": "array",
             "items": {
               "type": "object",
+              "additionalProperties": false,
               "description": "Phenotyping based on the HPO ontology.",
               "allOf": [
                 {

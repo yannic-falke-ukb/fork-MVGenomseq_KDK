@@ -4,6 +4,7 @@
   "$dynamicAnchor": "carePlanRD",
   "title": "Care Plan for Rare Diseases",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "carePlanRd": {
       "$ref": "#/$defs/CarePlanRd"
@@ -24,6 +25,7 @@
   "$defs": {
     "CarePlanRd": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "molecularBoardDecisionDate": {
           "type": "string",
@@ -78,6 +80,7 @@
     },
     "RecommendedStudy": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "identifier": {
           "allOf": [
@@ -122,6 +125,7 @@
     },
     "RecommendedTherapy": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "identifier": {
           "allOf": [
