@@ -1,0 +1,75 @@
+# https://taskfile.dev
+
+version: "3"
+
+vars:
+  AJVOPTS: --spec=draft2020 -c ajv-formats --strict --strict-types=false
+
+tasks:
+  default:
+    desc: Show all existing tasks
+    cmds:
+      - task --list-all
+    silent: true
+
+  install:
+    desc: Install ajv and ajv-formats packages, required for linting schema
+    prompt: This command will install npm packages GLOBALLY! It will run `npm install -g ajv ajv-formats. Are you sure?`
+    cmds:
+      - npm install -g ajv ajv-formats
+  rarevalid:
+    desc: validate against RareDiseases.json schema
+    cmds:
+      - |
+        ajv validate -s RareDiseases.json \
+        -r Submission.json \
+        -r RareDiseasesCase.json \
+        -r RareDiseasesMolecular.json \
+        -r RareDiseasesPlan.json \
+        -r RareDiseasesFollowUp.json \
+        -r "data-types/*.json" \
+        -d testdat/RareDiseases_testdat.json \
+        {{.AJVOPTS}}
+
+  rare:
+    desc: Lint the RareDiseases.json package
+    cmds:
+      - |
+        ajv compile -s RareDiseases.json \
+        -r Submission.json \
+        -r RareDiseasesCase.json \
+        -r RareDiseasesMolecular.json \
+        -r RareDiseasesPlan.json \
+        -r RareDiseasesFollowUp.json \
+        -r "data-types/*.json" \
+        {{.AJVOPTS}}
+
+  onco:
+    desc: Lint the OncologyCase.json package
+    cmds:
+      - |
+        ajv compile -s Oncology.json \
+        -r Submission.json \
+        -r OncologyCase.json \
+        -r OncologyMolecular.json \
+        -r OncologyPlan.json \
+        -r OncologyFollowUp.json \
+        -r "data-types/*.json" \
+        {{.AJVOPTS}}
+
+  sub:
+    desc: Lint the Submission.json package
+    cmds:
+      - |
+        ajv compile -s Submission.json \
+        -r "data-types/*.json" \
+        {{.AJVOPTS}}
+
+  all-rare:
+    desc: Lint the Submission.json package
+    cmds:
+      - for: ['RareDiseasesCase.json', 'RareDiseasesFollowUp.json', 'RareDiseasesMolecular.json', 'RareDiseasesPlan.json' ]
+        cmd: |
+            ajv compile -s {{.ITEM}} \
+            -r "data-types/*.json" \
+            {{.AJVOPTS}}
