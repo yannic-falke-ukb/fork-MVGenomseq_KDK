@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Identifier.json",
+  "$id": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Identifier",
   "description": "A base identifier type.",

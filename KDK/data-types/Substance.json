@@ -1,11 +1,11 @@
 {
-  "$id": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Substance.json",
+  "$id": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Substance.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Substance",
   "type": "object",
   "properties": {
     "code": {
-      "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Coding.json"
+      "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Coding.json"
     },
     "name": {
       "type": "string"

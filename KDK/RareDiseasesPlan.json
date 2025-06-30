@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/RareDiseasesPlan.json",
+  "$id": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/RareDiseasesPlan.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$dynamicAnchor": "carePlanRD",
   "title": "Care Plan for Rare Diseases",
@@ -84,7 +84,7 @@
         "identifier": {
           "allOf": [
             {
-              "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Identifier.json"
+              "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json"
             },
             {
               "description": "Identifier for the recommended study."
@@ -114,7 +114,7 @@
           "items": {
             "allOf": [
               {
-                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Identifier.json"
+                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json"
               },
               {
                 "description": "Identifier of a variant defined in RareDiseasesMolecular."
@@ -136,7 +136,7 @@
         "identifier": {
           "allOf": [
             {
-              "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Identifier.json"
+              "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json"
             },
             {
               "description": "Identifier for the recommended therapy."
@@ -179,7 +179,7 @@
           "items": {
             "allOf": [
               {
-                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Identifier.json"
+                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json"
               },
               {
                 "description": "Identifier of a variant defined in RareDiseasesMolecular."

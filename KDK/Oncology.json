@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/Oncology.json",
+  "$id": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/Oncology.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Oncology Data Schema",
   "type": "object",
@@ -9,19 +9,19 @@
   ],
   "properties": {
     "metaData": {
-      "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/Submission.json"
+      "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/Submission.json"
     },
     "case": {
-      "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/OncologyCase.json"
+      "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/OncologyCase.json"
     },
     "molecular": {
-      "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/OncologyMolecular.json"
+      "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/OncologyMolecular.json"
     },
     "plan": {
-        "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/OncologyPlan.json"
+        "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/OncologyPlan.json"
     },
     "followUp": {
-        "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/OncologyFollowUp.json"
+        "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/OncologyFollowUp.json"
     }
   }
 }

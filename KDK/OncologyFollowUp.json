@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/OncologyFollowUp.json",
+  "$id": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/OncologyFollowUp.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$dynamicAnchor": "followUpOD",
   "title": "Follow-Up Oncological Data",
@@ -35,7 +35,7 @@
           "items": {
             "allOf": [
               {
-                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Coding.json"
+                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Coding.json"
               },
               {
                 "type": "object",
@@ -64,7 +64,7 @@
             "description": "Phenotyping based on the HPO ontology.",
             "allOf": [
               {
-                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Coding.json"
+                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Coding.json"
               }
             ],
             "properties": {
@@ -144,7 +144,7 @@
       "properties": {
         "reference": {
           "allOf": [
-            { "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Identifier.json" },
+            { "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json" },
             { "description": "Identifier of the recommended systemic therapies or, if not available, new identifier for future reference." }
           ]
         },
@@ -178,7 +178,7 @@
           "items": {
             "allOf": [
               {
-                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Substance.json"
+                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Substance.json"
               },
               {
                 "type": "object",
@@ -186,7 +186,7 @@
                   "code": {
                     "allOf": [
                       {
-                        "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Coding.json"
+                        "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Coding.json"
                       },
                       {
                         "type": "object",
@@ -256,7 +256,7 @@
       "properties": {
         "reference": {
           "allOf": [
-            { "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Identifier.json" },
+            { "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json" },
             { "description": "Identifier of the preventive measure." }
           ]
         },

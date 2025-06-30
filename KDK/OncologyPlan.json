@@ -1,5 +1,5 @@
 {
-    "$id": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/OncologyPlan.json",
+    "$id": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/OncologyPlan.json",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "OnkoPlan",
     "type": "object",
@@ -35,7 +35,7 @@
             "properties": {
                 "identifier": {
                     "allOf": [
-                        { "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Identifier.json" },
+                        { "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json" },
                         { "description": "Study identifier." }
                     ]
                 }
@@ -83,7 +83,7 @@
                                     "code": {
                                         "allOf": [
                                             {
-                                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Coding.json"
+                                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Coding.json"
                                             },
                                             {
                                                 "type": "object",
@@ -166,7 +166,7 @@
                     "items": {
                         "allOf": [
                             {
-                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Substance.json"
+                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Substance.json"
                             },
                             {
                                 "type": "object",
@@ -174,7 +174,7 @@
                                     "code": {
                                         "allOf": [
                                             {
-                                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Coding.json"
+                                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Coding.json"
                                             },
                                             {
                                                 "type": "object",
@@ -248,7 +248,7 @@
                     "items": {
                         "allOf": [
                             {
-                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Identifier.json"
+                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json"
                             },
                             {
                                 "description": "Identifier of a variant defined in OncologyMolecular."
@@ -288,7 +288,7 @@
                     "items": {
                         "allOf": [
                             {
-                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Substance.json"
+                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Substance.json"
                             },
                             {
                                 "type": "object",
@@ -296,7 +296,7 @@
                                     "code": {
                                         "allOf": [
                                             {
-                                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Coding.json"
+                                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Coding.json"
                                             },
                                             {
                                                 "type": "object",
@@ -371,7 +371,7 @@
                     "items": {
                         "allOf": [
                             {
-                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Identifier.json"
+                                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json"
                             },
                             {
                                 "description": "Identifier of a variant defined in OncologyMolecular."
