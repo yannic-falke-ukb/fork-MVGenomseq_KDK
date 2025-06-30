@@ -1,0 +1,1213 @@
+{
+  "metaData": {
+    "submission": {
+      "date": "1954-10-03",
+      "type": "correction",
+      "submitterId": "sint ex sunt dolore",
+      "genomicDataCenterId": "fugiat esse sint ex amet",
+      "clinicalDataNodeId": "proident amet",
+      "diseaseType": "oncological"
+    },
+    "mvConsent": {
+      "presentationDate": "1965-10-20",
+      "version": "sunt fugiat ut et proident",
+      "scope": [
+        {
+          "type": "deny",
+          "date": "1900-11-30",
+          "domain": "caseIdentification"
+        },
+        {
+          "type": "permit",
+          "date": "1895-05-09",
+          "domain": "caseIdentification"
+        },
+        {
+          "type": "deny",
+          "date": "1955-10-20",
+          "domain": "caseIdentification"
+        },
+        {
+          "type": "permit",
+          "date": "1956-06-24",
+          "domain": "mvSequencing"
+        }
+      ]
+    },
+    "researchConsents": [
+      {
+        "schemaVersion": "2025.0.1",
+        "presentationDate": "1902-03-09",
+        "scope": {}
+      },
+      {
+        "schemaVersion": "2025.0.1",
+        "presentationDate": "1934-01-18",
+        "scope": {}
+      },
+      {
+        "schemaVersion": "2025.0.1",
+        "presentationDate": "1962-03-02",
+        "scope": {}
+      },
+      {
+        "schemaVersion": "2025.0.1",
+        "presentationDate": "1932-01-05",
+        "scope": {}
+      }
+    ],
+    "coverageType": "UNK",
+    "tanC": "in Lorem",
+    "localCaseId": "et aliqua consectetur occaecat cupidatat",
+    "gender": "other",
+    "birthDate": "3281-07",
+    "addressAGS": "id tempor culpa labore enim",
+    "decisionToInclude": false,
+    "molecularBoardDecisionDate": "1899-09-01",
+    "rejectionJustification": "probablyPsychosomaticIllness"
+  },
+  "case": {
+    "diagnosisRd": {
+      "phenotypes": [
+        {
+          "system": "http://ATScMEkCNgZ.uhhE-703udNRQeA9hfgJOVUpc5HQdR,uZvHYKm7GAzp2PVUc5lzqbhnsavplDyi45Uqj",
+          "version": "laboris nulla ullamco pariatur",
+          "code": "ea",
+          "display": "commodo Excepteur aute",
+          "text": "ut"
+        },
+        {
+          "system": "https://eFuTWAmVC.atghap",
+          "version": "ad eu commodo",
+          "code": "nisi ea esse eiusmod incididunt",
+          "display": "officia nulla",
+          "text": "dolore cillum ea"
+        },
+        {
+          "system": "https://XwiwQiQRvNhkGBgAT.omzvlloo4b6MaPWwiB,QnCBvSSzzs-enErYGOks0yC+Tt-XLIoQWVyogqZcV6iE",
+          "version": "aute irure labore in ea",
+          "code": "sunt eu cupidatat aute",
+          "display": "incididunt quis",
+          "text": "et occaecat"
+        },
+        {
+          "system": "https://zfxNxVaCtKpZDdhDoHi.mzLh1zKqP4vZPBj",
+          "version": "dolor laborum",
+          "code": "quis aute mollit",
+          "display": "sit",
+          "text": "cillum dolor anim officia occaecat"
+        }
+      ],
+      "symptomOnsetDate": "2197-11",
+      "molecularBoardDecisionDate": "1907-05-10",
+      "diagnosticExtent": "trioGenome",
+      "libraryType": "wgs_lr",
+      "diagnosticAssessment": "confirmedGeneticDiagnosis",
+      "diagnoses": [
+        {
+          "system": "https://XvxycTSkZgZTgXeXemxzKufglfE.zrdFibpKLd4.WWX1m5EofwoDr-s2tHy",
+          "version": "eiusmod ut mollit culpa exercitation",
+          "code": "veniam commodo",
+          "display": "dolor"
+        },
+        {
+          "system": "http://iITTorYgJTRJCwbW.xnb4rkOKOOsoYrNxNuMOYnOcJ2kwz68uAjD1LPTgVrk",
+          "version": "id Ut deserunt mollit",
+          "code": "consequat do veniam",
+          "display": "veniam"
+        },
+        {
+          "system": "http://DZMRGKCfJlfYrPUjIucLEcv.zzJ8sOzbF.CiOdez4zf3DpzUs,tdgxA54jDfDnuQK",
+          "version": "exercitation",
+          "code": "dolor",
+          "display": "culpa dolor incididunt"
+        },
+        {
+          "system": "https://dhiUFPMWNoYKiUsgsmNSawsFVdyVkZkn.arxpjxEP6qn4zL-mjCnuU2GVhJ4kJ.DZeVqDNBdNH+GkHbVXty+xqZw",
+          "version": "non in ut adipisicing cillum",
+          "code": "do",
+          "display": "ad quis"
+        }
+      ],
+      "noMatchingCodeExists": false,
+      "diagnosisGmfcs": "I"
+    },
+    "priorRd": {
+      "genomicTestType": "exome",
+      "genomicStudyType": "trio",
+      "diagnosticDate": "1941-07-15",
+      "diagnosticResult": "unclearVariantInGeneticDisease",
+      "hospitalizationPeriods": "unknown",
+      "hospitalizationDuration": "upToFifty",
+      "zseContactDate": "7586-10"
+    }
+  },
+  "molecular": {
+    "structuralVariants": [
+      {
+        "identifier": "laborum in tempor",
+        "genes": [
+          {
+            "code": "pariatur est"
+          },
+          {
+            "code": "ullamco fugiat dolore"
+          },
+          {
+            "code": "sunt"
+          },
+          {
+            "code": "officia in aliqua voluptate qui"
+          }
+        ],
+        "localization": [
+          {
+            "code": "splicingRegion"
+          },
+          {
+            "code": "splicingRegion"
+          },
+          {
+            "code": "intergenic"
+          },
+          {
+            "code": "regulatoryRegion"
+          }
+        ],
+        "gdnaChange": "reprehenderit",
+        "cdnaChange": "pariatur",
+        "proteinChange": "cupidatat sit",
+        "acmgClass": "2",
+        "acmgCriteria": [
+          {
+            "value": "BS2",
+            "modifier": "ps"
+          },
+          {
+            "value": "PP3",
+            "modifier": "bp"
+          },
+          {
+            "value": "BP3",
+            "modifier": "pvs"
+          },
+          {
+            "value": "BP7",
+            "modifier": "pp"
+          }
+        ],
+        "zygosity": "homoplasmic",
+        "segregationAnalysis": "fromMotherAndFather",
+        "modeOfInheritance": "XLinked",
+        "diagnosticSignificance": "incidental",
+        "externalId": "ad laboris officia fugiat",
+        "publications": [
+          "consectetur quis aliqua dolor laborum",
+          "Lorem dolore dolor dolor",
+          "aliquip sunt eu laboris",
+          "nostrud"
+        ],
+        "description": "exercitation ex ea"
+      },
+      {
+        "identifier": "sed labore aliquip",
+        "genes": [
+          {
+            "code": "eiusmod nostrud"
+          },
+          {
+            "code": "reprehenderit velit eiusmod"
+          },
+          {
+            "code": "nisi aute"
+          },
+          {
+            "code": "occaecat qui sint incididunt"
+          }
+        ],
+        "localization": [
+          {
+            "code": "codingRegion"
+          },
+          {
+            "code": "intergenic"
+          },
+          {
+            "code": "intergenic"
+          },
+          {
+            "code": "intronic"
+          }
+        ],
+        "gdnaChange": "ullamco nisi veniam quis consectetur",
+        "cdnaChange": "esse reprehenderit non",
+        "proteinChange": "id minim nulla",
+        "acmgClass": "1",
+        "acmgCriteria": [
+          {
+            "value": "PP3",
+            "modifier": "pp"
+          },
+          {
+            "value": "BP3",
+            "modifier": "bs"
+          },
+          {
+            "value": "BS3",
+            "modifier": "bm"
+          },
+          {
+            "value": "PP2",
+            "modifier": "pp"
+          }
+        ],
+        "zygosity": "hemi",
+        "segregationAnalysis": "fromFather",
+        "modeOfInheritance": "recessive",
+        "diagnosticSignificance": "candidate",
+        "externalId": "ipsum eiusmod sint ut cillum",
+        "publications": [
+          "anim",
+          "Ut est deserunt commodo nostrud",
+          "do tempor",
+          "Duis culpa ad"
+        ],
+        "description": "ad enim mollit"
+      },
+      {
+        "identifier": "voluptate nostrud anim nisi",
+        "genes": [
+          {
+            "code": "voluptate"
+          },
+          {
+            "code": "sit labore esse"
+          },
+          {
+            "code": "mollit amet incididunt"
+          },
+          {
+            "code": "sunt in proident Lorem"
+          }
+        ],
+        "localization": [
+          {
+            "code": "intronic"
+          },
+          {
+            "code": "splicingRegion"
+          },
+          {
+            "code": "intronic"
+          },
+          {
+            "code": "intronic"
+          }
+        ],
+        "gdnaChange": "culpa",
+        "cdnaChange": "cillum mollit occaecat sint nostrud",
+        "proteinChange": "deserunt culpa dolore in",
+        "acmgClass": "3",
+        "acmgCriteria": [
+          {
+            "value": "PP1",
+            "modifier": "pp"
+          },
+          {
+            "value": "PM6",
+            "modifier": "pp"
+          },
+          {
+            "value": "PM6",
+            "modifier": "ps"
+          },
+          {
+            "value": "PP1",
+            "modifier": "bp"
+          }
+        ],
+        "zygosity": "hemi",
+        "segregationAnalysis": "deNovo",
+        "modeOfInheritance": "dominant",
+        "diagnosticSignificance": "incidental",
+        "externalId": "occaecat dolore incididunt",
+        "publications": [
+          "dolor nulla commodo pariatur",
+          "eiusmod",
+          "velit proident ex",
+          "ex"
+        ],
+        "description": "ex occaecat"
+      },
+      {
+        "identifier": "est eu dolor",
+        "genes": [
+          {
+            "code": "nulla amet aliqua enim cillum"
+          },
+          {
+            "code": "quis esse"
+          },
+          {
+            "code": "labore ullamco dolore et in"
+          },
+          {
+            "code": "in sit nulla est"
+          }
+        ],
+        "localization": [
+          {
+            "code": "codingRegion"
+          },
+          {
+            "code": "intronic"
+          },
+          {
+            "code": "codingRegion"
+          },
+          {
+            "code": "splicingRegion"
+          }
+        ],
+        "gdnaChange": "eiusmod ipsum",
+        "cdnaChange": "irure ullamco",
+        "proteinChange": "velit Excepteur eu nostrud",
+        "acmgClass": "4",
+        "acmgCriteria": [
+          {
+            "value": "PM2",
+            "modifier": "pvs"
+          },
+          {
+            "value": "BP7",
+            "modifier": "pm"
+          },
+          {
+            "value": "BP5",
+            "modifier": "ps"
+          },
+          {
+            "value": "PM4",
+            "modifier": "pm"
+          }
+        ],
+        "zygosity": "heteroplasmic",
+        "segregationAnalysis": "deNovo",
+        "modeOfInheritance": "mitochondrial",
+        "diagnosticSignificance": "candidate",
+        "externalId": "sunt officia",
+        "publications": [
+          "velit ad",
+          "culpa irure anim",
+          "sed",
+          "adipisicing consequat elit"
+        ],
+        "description": "voluptate in"
+      }
+    ],
+    "smallVariants": [
+      {
+        "identifier": "nostrud Ut dolore",
+        "genes": [
+          {
+            "code": "consectetur exercitation pariatur qui nisi"
+          },
+          {
+            "code": "nulla pariatur dolor"
+          },
+          {
+            "code": "dolor Excepteur"
+          },
+          {
+            "code": "proident mollit"
+          }
+        ],
+        "localization": [
+          {
+            "code": "splicingRegion"
+          },
+          {
+            "code": "splicingRegion"
+          },
+          {
+            "code": "regulatoryRegion"
+          },
+          {
+            "code": "regulatoryRegion"
+          }
+        ],
+        "gdnaChange": "est",
+        "cdnaChange": "ullamco exercitation dolor",
+        "proteinChange": "laborum sunt dolor ex nulla",
+        "acmgClass": "1",
+        "acmgCriteria": [
+          {
+            "value": "BP5",
+            "modifier": "bp"
+          },
+          {
+            "value": "BS1",
+            "modifier": "pvs"
+          },
+          {
+            "value": "BP1",
+            "modifier": "ba"
+          },
+          {
+            "value": "PP4",
+            "modifier": "pm"
+          }
+        ],
+        "zygosity": "compHet",
+        "segregationAnalysis": "notPerformed",
+        "modeOfInheritance": "unclear",
+        "diagnosticSignificance": "candidate",
+        "externalId": "ipsum cillum laboris sint",
+        "publications": [
+          "nostrud pariatur consectetur in",
+          "laborum Ut nulla sed",
+          "in dolor ut minim",
+          "dolore consectetur dolor"
+        ],
+        "chromosome": "X",
+        "startPosition": -69188837,
+        "endPosition": -81829696,
+        "ref": "veniam exercitation occaecat fugiat",
+        "alt": "tempor reprehenderit"
+      },
+      {
+        "identifier": "culpa ut in fugiat",
+        "genes": [
+          {
+            "code": "culpa ut"
+          },
+          {
+            "code": "mollit officia"
+          },
+          {
+            "code": "id anim"
+          },
+          {
+            "code": "velit commodo irure Duis nisi"
+          }
+        ],
+        "localization": [
+          {
+            "code": "splicingRegion"
+          },
+          {
+            "code": "intergenic"
+          },
+          {
+            "code": "codingRegion"
+          },
+          {
+            "code": "splicingRegion"
+          }
+        ],
+        "gdnaChange": "officia culpa adipisicing et",
+        "cdnaChange": "elit dolor commodo dolore",
+        "proteinChange": "cupidatat dolore eiusmod mollit irure",
+        "acmgClass": "5",
+        "acmgCriteria": [
+          {
+            "value": "PVS1",
+            "modifier": "bp"
+          },
+          {
+            "value": "PP3",
+            "modifier": "pm"
+          },
+          {
+            "value": "PS3",
+            "modifier": "bm"
+          },
+          {
+            "value": "PP3",
+            "modifier": "bm"
+          }
+        ],
+        "zygosity": "compHet",
+        "segregationAnalysis": "fromFather",
+        "modeOfInheritance": "recessive",
+        "diagnosticSignificance": "incidental",
+        "externalId": "anim dolor aliquip officia",
+        "publications": [
+          "adipisicing",
+          "nulla",
+          "incididunt aute",
+          "cillum sed deserunt tempor"
+        ],
+        "chromosome": "8",
+        "startPosition": 9207359,
+        "endPosition": 76868086,
+        "ref": "esse aliquip eu ut labore",
+        "alt": "ad ex non"
+      },
+      {
+        "identifier": "esse",
+        "genes": [
+          {
+            "code": "in Duis"
+          },
+          {
+            "code": "ex minim commodo ipsum laboris"
+          },
+          {
+            "code": "reprehenderit dolor do ut"
+          },
+          {
+            "code": "Duis veniam"
+          }
+        ],
+        "localization": [
+          {
+            "code": "intergenic"
+          },
+          {
+            "code": "intergenic"
+          },
+          {
+            "code": "codingRegion"
+          },
+          {
+            "code": "codingRegion"
+          }
+        ],
+        "gdnaChange": "aliquip",
+        "cdnaChange": "ea officia laborum elit dolor",
+        "proteinChange": "proident sit",
+        "acmgClass": "2",
+        "acmgCriteria": [
+          {
+            "value": "PM6",
+            "modifier": "ps"
+          },
+          {
+            "value": "PVS1",
+            "modifier": "pm"
+          },
+          {
+            "value": "PM1",
+            "modifier": "bs"
+          },
+          {
+            "value": "BS4",
+            "modifier": "ba"
+          }
+        ],
+        "zygosity": "homoplasmic",
+        "segregationAnalysis": "fromFather",
+        "modeOfInheritance": "mitochondrial",
+        "diagnosticSignificance": "primary",
+        "externalId": "in",
+        "publications": [
+          "dolore consectetur",
+          "ex pariatur et aliqua",
+          "anim do in",
+          "voluptate"
+        ],
+        "chromosome": "18",
+        "startPosition": -49768272,
+        "endPosition": 51183348,
+        "ref": "quis est cillum laborum",
+        "alt": "commodo id pariatur"
+      },
+      {
+        "identifier": "Duis dolor ut",
+        "genes": [
+          {
+            "code": "tempor esse"
+          },
+          {
+            "code": "ex aliqua incididunt"
+          },
+          {
+            "code": "laborum"
+          },
+          {
+            "code": "officia"
+          }
+        ],
+        "localization": [
+          {
+            "code": "splicingRegion"
+          },
+          {
+            "code": "intergenic"
+          },
+          {
+            "code": "intronic"
+          },
+          {
+            "code": "intergenic"
+          }
+        ],
+        "gdnaChange": "veniam",
+        "cdnaChange": "laborum dolor sit",
+        "proteinChange": "ullamco culpa exercitation sunt aliquip",
+        "acmgClass": "5",
+        "acmgCriteria": [
+          {
+            "value": "BS2",
+            "modifier": "bm"
+          },
+          {
+            "value": "BS4",
+            "modifier": "bs"
+          },
+          {
+            "value": "PP2",
+            "modifier": "bp"
+          },
+          {
+            "value": "BP5",
+            "modifier": "ps"
+          }
+        ],
+        "zygosity": "homoplasmic",
+        "segregationAnalysis": "fromFather",
+        "modeOfInheritance": "XLinked",
+        "diagnosticSignificance": "candidate",
+        "externalId": "quis mollit",
+        "publications": [
+          "quis",
+          "amet consectetur sunt velit",
+          "ex",
+          "in"
+        ],
+        "chromosome": "22",
+        "startPosition": -28476307,
+        "endPosition": -20976999,
+        "ref": "laboris",
+        "alt": "Duis tempor dolor ullamco"
+      }
+    ],
+    "copyNumberVariants": [
+      {
+        "identifier": "ullamco aliquip labore do",
+        "genes": [
+          {
+            "code": "ex mollit culpa cupidatat consectetur"
+          },
+          {
+            "code": "laborum voluptate labore sed in"
+          },
+          {
+            "code": "commodo qui nulla amet"
+          },
+          {
+            "code": "ipsum dolore eu non aute"
+          }
+        ],
+        "localization": [
+          {
+            "code": "regulatoryRegion"
+          },
+          {
+            "code": "intronic"
+          },
+          {
+            "code": "intronic"
+          },
+          {
+            "code": "intergenic"
+          }
+        ],
+        "gdnaChange": "dolor incididunt ex",
+        "cdnaChange": "consectetur Lorem reprehenderit eu",
+        "proteinChange": "ex sed dolor",
+        "acmgClass": "1",
+        "acmgCriteria": [
+          {
+            "value": "PP1",
+            "modifier": "pp"
+          },
+          {
+            "value": "PM3",
+            "modifier": "bp"
+          },
+          {
+            "value": "PM3",
+            "modifier": "pvs"
+          },
+          {
+            "value": "BS2",
+            "modifier": "bp"
+          }
+        ],
+        "zygosity": "heterozygous",
+        "segregationAnalysis": "fromFather",
+        "modeOfInheritance": "unclear",
+        "diagnosticSignificance": "primary",
+        "externalId": "officia eiusmod irure mollit",
+        "publications": [
+          "irure",
+          "minim cillum ipsum labore dolore",
+          "dolore ut magna irure",
+          "Excepteur et"
+        ],
+        "chromosome": "11",
+        "startPosition": -94832649,
+        "endPosition": -49803635,
+        "type": "loss"
+      },
+      {
+        "identifier": "sed",
+        "genes": [
+          {
+            "code": "pariatur et exercitation"
+          },
+          {
+            "code": "id sit nulla"
+          },
+          {
+            "code": "id amet"
+          },
+          {
+            "code": "nisi laborum"
+          }
+        ],
+        "localization": [
+          {
+            "code": "intergenic"
+          },
+          {
+            "code": "intronic"
+          },
+          {
+            "code": "intergenic"
+          },
+          {
+            "code": "splicingRegion"
+          }
+        ],
+        "gdnaChange": "eu",
+        "cdnaChange": "deserunt irure mollit",
+        "proteinChange": "aliquip aliqua",
+        "acmgClass": "1",
+        "acmgCriteria": [
+          {
+            "value": "PM2",
+            "modifier": "pp"
+          },
+          {
+            "value": "BS2",
+            "modifier": "ps"
+          },
+          {
+            "value": "PM5",
+            "modifier": "ps"
+          },
+          {
+            "value": "PP4",
+            "modifier": "pm"
+          }
+        ],
+        "zygosity": "hemi",
+        "segregationAnalysis": "notPerformed",
+        "modeOfInheritance": "XLinked",
+        "diagnosticSignificance": "incidental",
+        "externalId": "et est nulla",
+        "publications": [
+          "in anim veniam",
+          "in",
+          "ea do in id",
+          "elit qui esse"
+        ],
+        "chromosome": "20",
+        "startPosition": 40586272,
+        "endPosition": 96500101,
+        "type": "gain"
+      },
+      {
+        "identifier": "sit",
+        "genes": [
+          {
+            "code": "qui fugiat cillum officia ullamco"
+          },
+          {
+            "code": "sint cupidatat elit ut"
+          },
+          {
+            "code": "labore officia"
+          },
+          {
+            "code": "qui non magna"
+          }
+        ],
+        "localization": [
+          {
+            "code": "codingRegion"
+          },
+          {
+            "code": "intergenic"
+          },
+          {
+            "code": "intergenic"
+          },
+          {
+            "code": "splicingRegion"
+          }
+        ],
+        "gdnaChange": "mollit veniam eu labore officia",
+        "cdnaChange": "elit dolor ullamco irure minim",
+        "proteinChange": "irure",
+        "acmgClass": "4",
+        "acmgCriteria": [
+          {
+            "value": "BP2",
+            "modifier": "ps"
+          },
+          {
+            "value": "BP4",
+            "modifier": "bm"
+          },
+          {
+            "value": "BP2",
+            "modifier": "bm"
+          },
+          {
+            "value": "BA1",
+            "modifier": "bs"
+          }
+        ],
+        "zygosity": "homozygous",
+        "segregationAnalysis": "deNovo",
+        "modeOfInheritance": "recessive",
+        "diagnosticSignificance": "candidate",
+        "externalId": "exercitation Lorem dolor veniam",
+        "publications": [
+          "in cupidatat veniam",
+          "labore esse sed consequat",
+          "labore Excepteur sint aliquip",
+          "reprehenderit"
+        ],
+        "chromosome": "12",
+        "startPosition": 18575961,
+        "endPosition": -37421281,
+        "type": "gain"
+      },
+      {
+        "identifier": "velit elit in",
+        "genes": [
+          {
+            "code": "dolore magna est"
+          },
+          {
+            "code": "est cillum aliqua cupidatat pariatur"
+          },
+          {
+            "code": "ea voluptate nisi sint pariatur"
+          },
+          {
+            "code": "id tempor ut sed"
+          }
+        ],
+        "localization": [
+          {
+            "code": "intronic"
+          },
+          {
+            "code": "intronic"
+          },
+          {
+            "code": "intronic"
+          },
+          {
+            "code": "splicingRegion"
+          }
+        ],
+        "gdnaChange": "incididunt cillum",
+        "cdnaChange": "commodo tempor",
+        "proteinChange": "velit pariatur",
+        "acmgClass": "5",
+        "acmgCriteria": [
+          {
+            "value": "BS1",
+            "modifier": "pp"
+          },
+          {
+            "value": "PP5",
+            "modifier": "pvs"
+          },
+          {
+            "value": "PS2",
+            "modifier": "bs"
+          },
+          {
+            "value": "PS3",
+            "modifier": "pp"
+          }
+        ],
+        "zygosity": "hemi",
+        "segregationAnalysis": "fromFather",
+        "modeOfInheritance": "XLinked",
+        "diagnosticSignificance": "incidental",
+        "externalId": "eiusmod",
+        "publications": [
+          "laborum eu",
+          "ut aliqua tempor voluptate aute",
+          "voluptate aliquip sunt ex",
+          "labore"
+        ],
+        "chromosome": "10",
+        "startPosition": 87700704,
+        "endPosition": 50589906,
+        "type": "loss"
+      }
+    ]
+  },
+  "plan": {
+    "carePlanRd": {
+      "molecularBoardDecisionDate": "1944-12-15",
+      "studyRecommended": true,
+      "counsellingRecommended": true,
+      "reEvaluationRecommended": false,
+      "therapyRecommended": false,
+      "clinicalManagementRecommended": false,
+      "clinicalManagementDescriptions": [
+        "universityAmbulatoryCare",
+        "localCrd",
+        "universityAmbulatoryCare",
+        "otherCrd"
+      ]
+    },
+    "recommendedStudies": [
+      {
+        "identifier": "dolor non adipisicing cillum nulla",
+        "register": "NCT",
+        "name": "tempor ex",
+        "id": "ut qui Ut ad cillum",
+        "variants": []
+      },
+      {
+        "identifier": "elit dolore",
+        "register": "other",
+        "name": "commodo fugiat ipsum veniam",
+        "id": "enim nisi voluptate aliqua",
+        "variants": []
+      },
+      {
+        "identifier": "cupidatat pariatur exercitation",
+        "register": "other",
+        "name": "Excepteur nisi tempor",
+        "id": "ea sunt veniam dolore",
+        "variants": []
+      },
+      {
+        "identifier": "non mollit",
+        "register": "Eudra-CT/CTIS",
+        "name": "eu est",
+        "id": "in dolore voluptate",
+        "variants": []
+      }
+    ],
+    "recommendedTherapies": [
+      {
+        "identifier": "consequat qui dolore esse laboris",
+        "type": "causal",
+        "strategy": "prophylactic",
+        "strategyOther": "Lorem aliqua",
+        "strategyCombination": "voluptate tempor consectetur",
+        "variants": []
+      },
+      {
+        "identifier": "commodo amet aute ut deserunt",
+        "type": "causal",
+        "strategy": "genetic",
+        "strategyOther": "nostrud labore consectetur",
+        "strategyCombination": "minim",
+        "variants": []
+      },
+      {
+        "identifier": "ut ad veniam",
+        "type": "causal",
+        "strategy": "genetic",
+        "strategyOther": "quis incididunt est in",
+        "strategyCombination": "ad cillum cupidatat",
+        "variants": []
+      },
+      {
+        "identifier": "irure velit",
+        "type": "symptomatic",
+        "strategy": "combination",
+        "strategyOther": "cillum qui aute Ut ullamco",
+        "strategyCombination": "ad adipisicing in anim",
+        "variants": []
+      }
+    ]
+  },
+  "followUp": {
+    "followUpRds": [
+      {
+        "followUpDate": "1925-03-11",
+        "phenotypes": [
+          {
+            "text": "sit Excepteur",
+            "change": "noLongerObserved",
+            "system": "http://LbkFBjsFkeWylxgoWVzPjkMOzo.gyjoE6AVht.5eUtHr0kCZ",
+            "version": "mollit consequat id non",
+            "code": "magna exercitation pariatur sint",
+            "display": "aute esse veniam ad dolore"
+          },
+          {
+            "text": "et elit",
+            "change": "unchanged",
+            "system": "https://Ite.rfUtkmRix-nSgDqHVBFO1.7OYSJiHMAid-PvYGXxrgrSMrh0QdzX6WLMsG1K",
+            "version": "cillum non dolore amet",
+            "code": "veniam",
+            "display": "ipsum laborum voluptate"
+          },
+          {
+            "text": "ullamco",
+            "change": "noLongerObserved",
+            "system": "https://dSswa.aunknT+Vt.pG8vXHCW1MbPdRjZSwtZK+109d",
+            "version": "ipsum Duis",
+            "code": "ea in incididunt consequat",
+            "display": "aliqua tempor"
+          },
+          {
+            "text": "sit in nostrud",
+            "change": "unchanged",
+            "system": "http://MxZUdNrNtSjKv.nbkpsj347",
+            "version": "voluptate",
+            "code": "voluptate consectetur tempor veniam",
+            "display": "mollit"
+          }
+        ],
+        "gmfcs": "II",
+        "diagnosisEstablished": true,
+        "diseaseProgression": "do dolor consectetur",
+        "vitalStatus": "living",
+        "deathDate": "7176-12"
+      },
+      {
+        "followUpDate": "1910-03-02",
+        "phenotypes": [
+          {
+            "text": "dolore in et",
+            "change": "newlyAdded",
+            "system": "http://oDkOVKWyPOOyH.qkuRf.bBY56XR",
+            "version": "veniam",
+            "code": "in",
+            "display": "quis labore in irure nulla"
+          },
+          {
+            "text": "veniam fugiat Duis",
+            "change": "newlyAdded",
+            "system": "https://iqGnsCEffZJaoozBOHzSvPMPalJKFIE.iiuyPGwWCwqPzebcuIDVLhqj",
+            "version": "nostrud tempor pariatur ipsum et",
+            "code": "pariatur laboris adipisicing ex",
+            "display": "consequat"
+          },
+          {
+            "text": "quis velit",
+            "change": "unchanged",
+            "system": "http://RGJzzUYhvPvmLFYCR.jdzKqklsJw3WQSXuMRusLQ3ZKzcAWG-xkU+8LpM-U0QyOX61OAqBqEJfo25-BpGwlgZkNtfJ35dN",
+            "version": "non",
+            "code": "anim",
+            "display": "laborum consectetur reprehenderit consequat"
+          },
+          {
+            "text": "aute in ad",
+            "change": "improved",
+            "system": "https://FxHLwswMvTjM.bdrqP8qBtZP5.SPiN4++G4npnKwW1gVgKEbU7Z+d7MnMxEa35JEoVbY",
+            "version": "dolor ad adipisicing Duis amet",
+            "code": "dolor",
+            "display": "nisi Ut"
+          }
+        ],
+        "gmfcs": "IV",
+        "diagnosisEstablished": false,
+        "diseaseProgression": "sunt eu",
+        "vitalStatus": "deceased",
+        "deathDate": "9945-10"
+      },
+      {
+        "followUpDate": "1923-12-05",
+        "phenotypes": [
+          {
+            "text": "in eiusmod ad",
+            "change": "unchanged",
+            "system": "http://slVhYeapZrelObFjvTLKRICYonpJbuvLH.whSaVyNJgrlch+ZdNrgjoIzL-7Yj6edX9l0qg",
+            "version": "consequat fugiat",
+            "code": "elit incididunt magna id officia",
+            "display": "reprehenderit in Duis sint"
+          },
+          {
+            "text": "voluptate ipsum proident",
+            "change": "newlyAdded",
+            "system": "https://pIsfNgrGcyrIHz.hhSvijyX1QZTp6N+SEPmXSH95Lk31ymaqG",
+            "version": "dolore consectetur elit",
+            "code": "cillum",
+            "display": "est consectetur in"
+          },
+          {
+            "text": "minim cillum Duis enim eiusmod",
+            "change": "newlyAdded",
+            "system": "https://QlIioEtUTEHDal.cxgz1Dc5NsV4hqZj+3Pcx,c0InNdnP-o41drd4e-fFpd0FU3v0",
+            "version": "in veniam in commodo anim",
+            "code": "pariatur in tempor dolor cillum",
+            "display": "mollit sint"
+          },
+          {
+            "text": "Duis et ad",
+            "change": "unchanged",
+            "system": "http://tESdr.xmYcwEb6Mu",
+            "version": "Lorem ut laborum",
+            "code": "incididunt",
+            "display": "Excepteur"
+          }
+        ],
+        "gmfcs": "V",
+        "diagnosisEstablished": true,
+        "diseaseProgression": "ipsum quis",
+        "vitalStatus": "living",
+        "deathDate": "6622-10"
+      },
+      {
+        "followUpDate": "1897-05-11",
+        "phenotypes": [
+          {
+            "text": "cillum",
+            "change": "newlyAdded",
+            "system": "https://fyXvHcrU.pytPPcd4T6xFk",
+            "version": "Excepteur aliqua quis in ea",
+            "code": "ut",
+            "display": "est Lorem ut"
+          },
+          {
+            "text": "consectetur non sit laborum",
+            "change": "unchanged",
+            "system": "http://NAAgTEHcdhdSOK.dsykLpjLx7XKGRxv2jEA29wpVTvMAA4lGwQ",
+            "version": "eiusmod aute Excepteur nostrud",
+            "code": "sit mollit nisi",
+            "display": "reprehenderit nulla nostrud"
+          },
+          {
+            "text": "aute dolor Duis exercitation",
+            "change": "degraded",
+            "system": "https://VhFFbykBNbCgxTZdIfMAMMt.ctcitx+fXRc1hv",
+            "version": "ut incididunt fugiat",
+            "code": "consequat",
+            "display": "consectetur occaecat ad pariatur"
+          },
+          {
+            "text": "ea ut nisi",
+            "change": "improved",
+            "system": "http://VKTepjCTMSjgJhJoYiolxndRXagQCX.pxgD4zLepjjArFKgOeXqGJQ+,sfxkzICkj0ZTk2K0O,LMrX5J4ZgCWmrEeZqSBSjG0Mj+vzHTevt4SP4S",
+            "version": "id Lorem aliquip exercitation proident",
+            "code": "magna sed esse",
+            "display": "do"
+          }
+        ],
+        "gmfcs": "IV",
+        "diagnosisEstablished": true,
+        "diseaseProgression": "dolor eu amet occaecat incididunt",
+        "vitalStatus": "living",
+        "deathDate": "7785-07"
+      }
+    ]
+  }
+}
