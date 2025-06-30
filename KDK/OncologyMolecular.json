@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/BfArM-MVH/MVGenomseq_KDK/main/KDK/OncologyMolecular.json",
+  "$id": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/OncologyMolecular.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Oncology Molecular Report",
   "description": "Schema for molecular report in oncology, including various variant types.",
@@ -57,7 +57,7 @@
           "description": "Gene symbol (HGNC) and HGNC ID. e.g., HGNC:1100",
           "allOf": [
             {
-              "$ref": "https://raw.githubusercontent.com/BfArM-MVH/MVGenomseq_KDK/main/KDK/data-types/Coding.json"
+              "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Coding.json"
             },
             {
               "required": [
@@ -78,7 +78,7 @@
         },
         "identifier": {
           "allOf": [
-            { "$ref": "https://raw.githubusercontent.com/BfArM-MVH/MVGenomseq_KDK/main/KDK/data-types/Identifier.json" },
+            { "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Identifier.json" },
             { "description": "Unique identifier for the variant." }
           ]
         }
@@ -99,7 +99,7 @@
         "transcriptId": {
           "allOf": [
             {
-              "$ref": "https://raw.githubusercontent.com/BfArM-MVH/MVGenomseq_KDK/main/KDK/data-types/Coding.json"
+              "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Coding.json"
             },
             {
               "required": [
@@ -168,7 +168,7 @@
           "items": {
             "allOf": [
               {
-                "$ref": "https://raw.githubusercontent.com/BfArM-MVH/MVGenomseq_KDK/main/KDK/data-types/Coding.json"
+                "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Coding.json"
               },
               {
                 "required": [

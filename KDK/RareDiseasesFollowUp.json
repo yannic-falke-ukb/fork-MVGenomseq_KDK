@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/BfArM-MVH/MVGenomseq_KDK/main/KDK/RareDiseasesFollowUp.json",
+  "$id": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/RareDiseasesFollowUp.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "required": [
@@ -23,7 +23,7 @@
               "description": "Phenotyping based on the HPO ontology.",
               "allOf": [
                 {
-                  "$ref": "https://raw.githubusercontent.com/BfArM-MVH/MVGenomseq_KDK/main/KDK/data-types/Coding.json"
+                  "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/data-types/Coding.json"
                 }
               ],
               "properties": {

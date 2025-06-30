@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/BfArM-MVH/MVGenomseq_KDK/main/KDK/Submission.json",
+  "$id": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/feature/v2-fixes/KDK/Submission.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Submission and Consent MetaData Sub-schema",
   "type": "object",
