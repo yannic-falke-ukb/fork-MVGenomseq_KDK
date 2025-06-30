@@ -82,12 +82,11 @@
       "type": "object",
       "properties": {
         "identifier": {
+          "type": "string",
+          "description": "Identifier for the recommended study.",
           "allOf": [
             {
               "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json"
-            },
-            {
-              "description": "Identifier for the recommended study."
             }
           ]
         },
@@ -111,13 +110,11 @@
         },
         "variants": {
           "type": "array",
+          "description": "Identifier of a variant defined in RareDiseasesMolecular.",
           "items": {
             "allOf": [
               {
                 "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json"
-              },
-              {
-                "description": "Identifier of a variant defined in RareDiseasesMolecular."
               }
             ]
           }
@@ -134,12 +131,11 @@
       "type": "object",
       "properties": {
         "identifier": {
+          "type": "string",
+          "description": "Identifier for the recommended therapy.",
           "allOf": [
             {
               "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json"
-            },
-            {
-              "description": "Identifier for the recommended therapy."
             }
           ]
         },
@@ -176,13 +172,11 @@
         },
         "variants": {
           "type": "array",
+          "description": "Identifier of a variant defined in RareDiseasesMolecular.",
           "items": {
             "allOf": [
               {
                 "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json"
-              },
-              {
-                "description": "Identifier of a variant defined in RareDiseasesMolecular."
               }
             ]
           }

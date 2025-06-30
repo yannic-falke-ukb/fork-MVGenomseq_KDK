@@ -77,9 +77,12 @@
           ]
         },
         "identifier": {
+          "type": "string",
+          "description": "Unique identifier for the variant.",
           "allOf": [
-            { "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json" },
-            { "description": "Unique identifier for the variant." }
+            {
+             "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json"
+            }
           ]
         }
       }

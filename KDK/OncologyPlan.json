@@ -34,9 +34,12 @@
             "type": "object",
             "properties": {
                 "identifier": {
+                    "type": "string",
+                    "description": "Study identifier.",
                     "allOf": [
-                        { "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json" },
-                        { "description": "Study identifier." }
+                        {
+                        "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json"
+                        }
                     ]
                 }
             }
@@ -245,13 +248,11 @@
                 },
                 "variants": {
                     "type": "array",
+                    "description": "Identifier of a variant defined in OncologyMolecular.",
                     "items": {
                         "allOf": [
                             {
                                 "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json"
-                            },
-                            {
-                                "description": "Identifier of a variant defined in OncologyMolecular."
                             }
                         ]
                     }
@@ -368,13 +369,11 @@
                 },
                 "variants": {
                     "type": "array",
+                    "description": "Identifier of a variant defined in OncologyMolecular.",
                     "items": {
                         "allOf": [
                             {
                                 "$ref": "https://raw.githubusercontent.com/yannic-falke-ukb/fork-MVGenomseq_KDK/testingv2/KDK/data-types/Identifier.json"
-                            },
-                            {
-                                "description": "Identifier of a variant defined in OncologyMolecular."
                             }
                         ]
                     }
