@@ -3,6 +3,7 @@
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "Oncology Case Data Schema",
     "type": "object",
+    "additionalProperties": false,
     "required": [
         "diagnosisOd"
     ],
@@ -23,6 +24,7 @@
     "$defs": {
         "DiagnosisOd": {
             "type": "object",
+            "additionalProperties": false,
             "properties": {
                 "mainDiagnosis": {
                     "allOf": [
@@ -31,6 +33,7 @@
                         },
                         {
                             "type": "object",
+                            "additionalProperties": false,
                             "properties": {
                                 "date": {
                                     "type": "string",
@@ -57,6 +60,7 @@
                             },
                             {
                                 "type": "object",
+                                "additionalProperties": false,
                                 "properties": {
                                     "date": {
                                         "type": "string",
@@ -120,6 +124,7 @@
                             },
                             {
                                 "type": "object",
+                                "additionalProperties": false,
                                 "properties": {
                                     "text": {
                                         "type": "string"
@@ -193,6 +198,7 @@
                             },
                             {
                                 "type": "object",
+                                "additionalProperties": false,
                                 "properties": {
                                     "text": {
                                         "type": "string",
@@ -214,6 +220,7 @@
                     "description": "Handles cases for additional classification or where the TNM classification system (AJCC or UICC) is unknown. This provides a string alternative to the SNOMED CT coding of TNM, using a system 'TNM'.",
                     "items" : {
                         "type": "object",
+                        "additionalProperties": false,
                         "properties": {
                             "system": {
                                 "type": "string",
@@ -259,6 +266,7 @@
         },
         "PriorDiagnostic": {
             "type": "object",
+            "additionalProperties": false,
             "properties": {
                 "type": {
                     "type": "string",
@@ -295,6 +303,7 @@
         },
         "PriorVariant": {
             "type": "object",
+            "additionalProperties": false,
             "properties": {
                 "gene": {
                     "description": "Gene display: Gene symbol (HGNC); BRAF. Gene code: HGNC ID; zB HGNC:1100",
@@ -357,6 +366,7 @@
         },
         "PriorProcedure": {
             "type": "object",
+            "additionalProperties": false,
             "properties": {
                 "treatmentType": {
                     "type": "string",
@@ -386,6 +396,7 @@
                       },
                       {
                         "type": "object",
+                        "additionalProperties": false,
                         "properties": {
                           "code": {
                             "allOf": [
@@ -394,6 +405,7 @@
                               },
                               {
                                 "type": "object",
+                                "additionalProperties": false,
                                 "description": "ATC code of active substance or pharmacological class",
                                 "required": [
                                   "system",

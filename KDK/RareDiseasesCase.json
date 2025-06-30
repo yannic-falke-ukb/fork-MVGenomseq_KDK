@@ -3,6 +3,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Rare Diseases Data Schema",
   "type": "object",
+  "additionalProperties": false,
   "required": [
 	  "diagnosisRd"
   ],
@@ -17,6 +18,7 @@
   "$defs": {
     "DiagnosisRd": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "phenotypes": {
           "type": "array",
@@ -28,6 +30,7 @@
               },
               {
                 "type": "object",
+                "additionalProperties": false,
                 "properties": {
                   "text": {
                     "type": "string",
@@ -124,6 +127,7 @@
     },
     "PriorRd": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "genomicTestType": {
           "type": "string",

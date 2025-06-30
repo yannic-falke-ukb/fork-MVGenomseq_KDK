@@ -4,6 +4,7 @@
   "$dynamicAnchor": "followUpOD",
   "title": "Follow-Up Oncological Data",
   "type": "object",
+  "additionalProperties": false,
   "required": [
     "followUpOds"
   ],
@@ -20,6 +21,7 @@
   "$defs": {
     "FollowUpOd": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "followUpDate": {
           "type": "string",
@@ -39,6 +41,7 @@
               },
               {
                 "type": "object",
+                "additionalProperties": false,
                 "properties": {
                   "date": {
                     "type": "string",
@@ -61,6 +64,7 @@
           "type": "array",
           "items": {
             "type": "object",
+            "additionalProperties": false,
             "description": "Phenotyping based on the HPO ontology.",
             "allOf": [
               {
@@ -141,6 +145,7 @@
     },
     "Therapy": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "reference": {
           "type": "string",
@@ -185,6 +190,7 @@
               },
               {
                 "type": "object",
+                "additionalProperties": false,
                 "properties": {
                   "code": {
                     "allOf": [
@@ -193,6 +199,7 @@
                       },
                       {
                         "type": "object",
+                        "additionalProperties": false,
                         "description": "ATC code of active substance or pharmacological class",
                         "required": [
                           "system",
@@ -256,6 +263,7 @@
     },
     "PreventiveMeasure": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "reference": {
           "type": "string",

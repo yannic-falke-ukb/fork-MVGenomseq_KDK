@@ -4,6 +4,7 @@
   "title": "Oncology Molecular Report",
   "description": "Schema for molecular report in oncology, including various variant types.",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "smallVariants": {
       "type": "array",
@@ -89,6 +90,7 @@
     },
     "SmallVariant": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "identifier": {
           "$ref": "#/$defs/Common/properties/identifier"
@@ -208,6 +210,7 @@
     },
     "CopyNumberVariant": {
       "type": "object",
+      "additionalProperties": false,
       "description": "Copy number changes (affecting a gene).",
       "properties": {
         "identifier": {
@@ -281,6 +284,7 @@
     },
     "StructuralVariant": {
       "type": "object",
+      "additionalProperties": false,
       "description": "Structural variants.",
       "properties": {
         "identifier": {
@@ -336,6 +340,7 @@
     },
     "ExpressionVariant": {
       "type": "object",
+      "additionalProperties": false,
       "description": "Expression level of mRNA.",
       "properties": {
         "identifier": {
@@ -368,6 +373,7 @@
     },
     "ComplexBiomarker": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "identifier": {
           "$ref": "#/$defs/Common/properties/identifier"
@@ -398,6 +404,7 @@
     },
     "SbsSignature": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "identifier": {
           "$ref": "#/$defs/Common/properties/identifier"
